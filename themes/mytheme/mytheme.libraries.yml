@@ -1,0 +1,12 @@
+## YAML Template.
+---
+global-component:
+  version: 1.x
+  css:
+      theme:
+        css/layout.css: {}
+        css/bootstrap.css: {}
+        css/custom.css: {}
+
+  dependencies:
+    - core/jquery
