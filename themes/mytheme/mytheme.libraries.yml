@@ -7,6 +7,10 @@ global-component:
         css/layout.css: {}
         css/bootstrap.css: {}
         css/custom.css: {}
-
+        
+  js:
+    js/custom.js: {}
+    js/bootstrap.min.js: {}
+    
   dependencies:
     - core/jquery

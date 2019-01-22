@@ -77,6 +77,20 @@
             </div>
       </div>#}
     </header>
+        <div class="section layout-container clearfix">
+            <div class="row">
+                    <div class="col-md-4">
+                     {% if logo %}
+                            <div class="logo clear-block">
+                            <a href="{{ path }}" title="Home"><img src="{{ logo }}" /></a>
+                            </div>
+                     {% endif %}
+                    </div>
+                    <div class="col-md-8">
+                      {{ page.menu }}
+                    </div>                    
+            </div>
+        </div>
     {#<div class="section layout-container clearfix" id="content">
             <div class="row">
                     <div class="col-md-3">

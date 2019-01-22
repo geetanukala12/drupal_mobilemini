@@ -11,3 +11,67 @@ and open the template in the editor.
 ul{
     list-style-type: none;
 }
+
+.container {
+  position: relative;
+}
+.select-checkbox {
+  display: none;
+}
+.select-label {
+  display: block;
+  border: 1px solid;
+  padding: 4px;
+}
+.select-label:before {
+  content: "\25BE";
+  float: right;
+}
+.select-wrap {
+  position: absolute;
+  width: 100%;
+  background: #eee;
+  display: none;
+}
+.select-checkbox:checked ~ .select-wrap {
+  display: block;
+}
+.select {
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+}
+.select a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+#block-country-menu, #block-topmenuright-menu, #block-menu-menu{
+    display: none;
+}
+.contextual-region {
+    position: absolute;
+}
+header{
+    background-color: gray;
+    height: 35px;
+}
+.dropdown > a{
+    color:#000;
+}
+.dropdown-menu > li > a{
+    color:#fff;
+}
+.dropdown{
+    padding-right: 55px;
+}
+.dropdown-menu{
+    background-color:navy;
+}
+.dropdown-menu li{
+    padding-bottom:6px;
+}
+
+.li-table{
+    display: table-cell;
+}
