@@ -6,6 +6,8 @@
 
 (function ($) {
        $(document).ready(function(){  
+            $('.dropdown-ul').css('display','none');
+            
             $("#state option[value != '']").hide();
             
             $('#country').on('change',function(){
@@ -28,6 +30,19 @@
               function() {
                 $('.dropdown-menu', this).not('.in .dropdown-menu').stop(true, true).slideUp();
                 $(this).toggleClass('open');
+              }
+            );
+    
+            $(".dropdown_submenu").hover(
+              function() {
+                $('.dropdown-menu', this).not('.in .dropdown-menu').stop(true, true).slideDown();
+                $(this).toggleClass('open');
+                $('.dropdown-ul').css('display','inline-flex');
+              },
+              function() {
+                $('.dropdown-menu', this).not('.in .dropdown-menu').stop(true, true).slideUp();
+                $(this).toggleClass('open');
+                $('.dropdown-ul').css('display','inline-flex');
               }
             );
 //            $(".dropdown").hover(

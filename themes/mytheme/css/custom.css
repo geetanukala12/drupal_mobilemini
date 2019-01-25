@@ -50,28 +50,55 @@ ul{
     display: none;
 }
 .contextual-region {
-    position: absolute;
+    position: relative;
 }
 header{
     background-color: gray;
     height: 35px;
 }
-.dropdown > a{
+.dropdown > a, .dropdown1 > a{
     color:#000;
 }
 .dropdown-menu > li > a{
     color:#fff;
 }
-.dropdown{
+.dropdown, .dropdown1{
     padding-right: 55px;
 }
 .dropdown-menu{
     background-color:navy;
+    padding: 20px;
 }
 .dropdown-menu li{
     padding-bottom:6px;
 }
-
-.li-table{
-    display: table-cell;
+.dropdown-ul{
+    width: 515px;
 }
+.main_navigation{
+    color:#fff;
+    height:80px;
+    color: #00205b;
+    font-size: 16px;
+    font-weight: 500;
+}
+#block-sitebranding h2{
+    display: none;
+}
+.site-name{
+    display: none;
+}
+.feed-icons{
+    display:none;
+}
+#block-breadcrumbs h2{
+    display: none;
+}
+footer{
+    padding-top: 30px;
+}
+footer ul{
+    border-right: 1px solid gray;
+}
+
+
