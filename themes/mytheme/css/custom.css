@@ -101,4 +101,31 @@ footer ul{
     border-right: 1px solid gray;
 }
 
+#block-footerfeaturedbottom > h2{
+    display: none;
+}
+#block-footerfeaturedbottom{
+    display: inline-flex;
+}
 
+.menu-item > a{
+    color: #fff;
+}
+.field--name-field-bottom-logo > .field__label{
+    display: none;
+}
+.field--name-field-quote-link > .field__label{
+    display: none;
+}
+.field--name-field-title > .field__label{
+    display: none;
+}
+.content-div{
+        width: 100%;
+}
+.field__item > a{
+    color: #fff;
+}
+.header-main-menu{
+        margin-bottom: 10px;
+}

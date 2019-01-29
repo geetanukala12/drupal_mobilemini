@@ -64,7 +64,7 @@
     </div>
 
 </header>
-<div class="section layout-container container clearfix" >
+<div class="section layout-container container clearfix header-main-menu" >
     <div class="row">
         <div class="col-md-6">
             {{ page.logo }}
@@ -76,7 +76,7 @@
 </div>
 {# Main #}
 {% block main %}
-    <div role="main" class="main-container">
+    <div role="main" class="main-container container">
         <section{{ content_attributes.addClass(content_classes) }}>
             {# Main Content  #}
             {% block content %}
@@ -95,6 +95,10 @@
         </section>
     </div>
 {% endblock %}
+
+<div class="section layout-container  container clearfix" >
+       {{ page.featured_bottom }}                  
+</div>
 
 
 {% block footer %}

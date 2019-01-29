@@ -19,8 +19,8 @@ regions:
   left_side_menu: 'Left Side menu'
   primary_menu: 'Primary menu'
 #  page_top: 'Page top'
-#  page_bottom: 'Page bottom'
-#  highlighted: Highlighted
+  page_bottom: 'Page bottom'
+  highlighted: Highlighted
   logo: 'Logo'
   menu: 'Menu'
   breadcrumb: Breadcrumb
@@ -28,9 +28,7 @@ regions:
   left_side_content: Left Content
   sidebar_first: 'Sidebar first'
   sidebar_second: 'Sidebar second'
-  featured_bottom_first: 'Featured bottom first'
-  featured_bottom_second: 'Featured bottom second'
-  featured_bottom_third: 'Featured bottom third'
+  featured_bottom: 'Featured bottom'
   footer: 'Footer'
   footer_left: 'Footer Left'
   footer_right: 'Footer Right'

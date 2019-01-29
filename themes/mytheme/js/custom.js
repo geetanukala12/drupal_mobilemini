@@ -12,7 +12,7 @@
             
             $('#country').on('change',function(){
                 var selVal = $(this).val();
-                alert(selVal);
+//                alert(selVal);
                 $('#state option[parent-country='+selVal+']').show(); 
             });
             
@@ -45,36 +45,6 @@
                 $('.dropdown-ul').css('display','inline-flex');
               }
             );
-//            $(".dropdown").hover(
-//              function() {
-//                $('.dropdown-menu', this).not('.in .dropdown-menu').stop(true, true).slideDown("400");
-//                $(this).toggleClass('open');
-//              },
-//              function() {
-//                $('.dropdown-menu', this).not('.in .dropdown-menu').stop(true, true).slideUp("400");
-//                $(this).toggleClass('open');
-//              }
-//            );
-//            $(".dropdown").hover(
-//              function() {
-//                $('.dropdown-menu', this).not('.in .dropdown-menu').stop(true, true).slideDown("400");
-//                $(this).toggleClass('open');
-//              },
-//              function() {
-//                $('.dropdown-menu', this).not('.in .dropdown-menu').stop(true, true).slideUp("400");
-//                $(this).toggleClass('open');
-//              }
-//            );
-//            $(".dropdown").hover(
-//              function() {
-//                $('.dropdown-menu', this).not('.in .dropdown-menu').stop(true, true).slideDown("400");
-//                $(this).toggleClass('open');
-//              },
-//              function() {
-//                $('.dropdown-menu', this).not('.in .dropdown-menu').stop(true, true).slideUp("400");
-//                $(this).toggleClass('open');
-//              }
-//            );
 
        });
 })(jQuery);
