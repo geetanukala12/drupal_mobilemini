@@ -51,6 +51,7 @@
  * @see html.html.twig
  */
 #}
+{% set current_page = path('<current>') %}
 <header id="header" class="header container-fluid" role="banner" aria-label="{{ 'Site header'|t }}">
     <div class="section layout-container container clearfix" id="header">
         <div class="row">
@@ -86,7 +87,15 @@
                             {{ page.content }}
                         </div>
                         <div class="col-md-3">
-                            {{ page.left_side_content }}
+{#                         {{ kint(page.left_side_content) }}#}
+{#                         {{ page.left_side_content['views_block__content_recent_block_1_2']}}#}
+{#                         {{ page.left_side_content }}#}
+{#                                {{ page.left_side_content }}#}
+{#    {{ kint(current_page) }} #} testetetetete {{ page.left_side_content }}
+                            {% if ('standard_width_containers' in current_page) %}
+{#                                {{ kint(page.left_side_content) }}#}
+                              
+                            {% endif %}
                         </div>                    
                     </div>  
                 </div>

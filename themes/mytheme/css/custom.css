@@ -129,3 +129,20 @@ footer ul{
 .header-main-menu{
         margin-bottom: 10px;
 }
+#block-storage-title .field__label{
+    display: none;
+}
+.field--name-field-standard-width-title > .field__item{
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 1.2;
+    color: #000000;
+    margin: 0;
+}
+.field--name-field-summary > .field__item{
+    color: #5c5956;
+    line-height: 36px;
+    font-size: 26px;
+    margin: 0;
+    font-weight: 400;
+}

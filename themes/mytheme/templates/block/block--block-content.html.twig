@@ -1,0 +1,12 @@
+{# empty Twig template #}
+<div{{ attributes }}>
+  {{ title_prefix }}
+  {{ title_suffix }}
+  {% block content %}
+{#      {{ kint(content) }}#}
+{#    {{ content }}#}
+{{ content.field_standard_width_title }}
+{{ content.field_image }}
+{{ content.field_summary }}
+  {% endblock %}
+</div>
