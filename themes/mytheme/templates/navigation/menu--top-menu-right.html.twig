@@ -8,7 +8,7 @@
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">{{ menu_item.text }}<span class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
                     {% for resource_item in menu_item.submenu %}
-                  <li value={{ resource_item.text|replace({' ': ''}) }}><a href="#">{{ resource_item.text }}</a></li>
+                  <li value={{ resource_item.text|replace({' ': ''}) }}><a href={{ resource_item.url }}>{{ resource_item.text }}</a></li>
                   {% endfor %}
                 </ul>
            </span> 

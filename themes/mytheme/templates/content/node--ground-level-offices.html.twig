@@ -20,8 +20,6 @@
 
   <div{{ content_attributes }}>
     {{ content }}
-        {{ kint(content.field_ground_taxanomy) }}
-
     {{ drupal_view('products','default', content.field_ground_taxanomy[0]['#title']) }}
   </div>
 

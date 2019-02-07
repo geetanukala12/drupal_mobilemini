@@ -146,3 +146,24 @@ footer ul{
     margin: 0;
     font-weight: 400;
 }
+.node--type-general-page-content > header{
+    display: none;
+}
+.node--type-menu-content-page .field__label{
+    display: none;
+}
+.node--type-menu-content-page .node__submitted{
+    display: none;
+}
+.field--name-field-footer-link .field__item{
+    display: block;
+}
+.field--name-field-footer-link .field__item > a{
+    color: #000;
+}
+.field__item > h2{
+        margin-top:50px;
+}
+.field__item > p{
+        margin-top:30px;
+}

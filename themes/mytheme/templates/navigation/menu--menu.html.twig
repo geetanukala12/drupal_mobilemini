@@ -40,7 +40,7 @@
                             <table>
                                 {% for resource_sub_menu in resource_item.submenu %}
                                      <tr>
-                                    <td value={{ resource_sub_menu.text|replace({' ': ''}) }}><a href="#">{{ resource_sub_menu.text }}</a>
+                                    <td value={{ resource_sub_menu.text|replace({' ': ''}) }}><a href={{ resource_sub_menu.url }}>{{ resource_sub_menu.text }}</a>
                                     </td>
                                     </tr>
                                 {% endfor %}
